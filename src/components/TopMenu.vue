@@ -5,22 +5,20 @@
 </script>
 
 <template>
-    <nav class="topMenu">
-        <ul>
-            <li><router-link to="/">Home</router-link></li>
-            <li><router-link to="/">Recipes</router-link></li>
-            <li><router-link to="/">Cook Calculator</router-link></li>
-            <li><router-link to="/">Video</router-link></li>
-            <li><router-link to="/">Chefs</router-link></li>
-
-            <li><router-link to="/">Sign in</router-link></li>
-            
-
+    <div class="topMenu">
         
+            <router-link to="/">Home</router-link>
+            <router-link to="/">Recipes</router-link>
+            <router-link to="/">Cook Calculator</router-link>
+            <router-link to="/">Video</router-link>
+            <router-link to="/">Chefs</router-link>
+            <router-link to="/" class="right">Sign in</router-link>
 
-           <!-- <li><a href="https://brights.com/" target="_blank">Brights</a></li>-->
-        </ul>
-    </nav>
+            <!-- <a href="https://brights.com/" class="right" target="_blank">Brights</a> -->
+        
+    </div>
+
+
 </template>
 
 <style>
@@ -28,12 +26,11 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    text-align: center;
-    box-shadow: 0px 3px 5px #000;
+    text-align: left;
+    padding: 0;
 }
-.topMenu li {
-    display: inline;
-}
+
+
 .topMenu a {
     text-decoration: none;
     color: black;
@@ -42,9 +39,14 @@
     display: inline-block;
 }
 
+.topMenu a.right {
+    float: right;
+}
+
 .topMenu a:hover {
-    background-color: white;
-    color: lightpink;
+    background-color: whitesmoke;
+    color: red;
+    font-weight: bold;
 }
 </style>
 
