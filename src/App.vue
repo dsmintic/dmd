@@ -32,7 +32,7 @@ export default{
  
   <footer>
     <!-- site map, sociall networks, legal stuff -->
-    <p>&copy; 2022, DMD chefs</p>
+    <p>&copy; 2022, DMD Damn deliciuos</p>
   </footer>
 
 </template>

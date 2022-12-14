@@ -145,6 +145,6 @@
 }
 
 .topMenu .router-link-active {
-    background-color: red;
+    background-color:lightpink;
     color: white;
 }

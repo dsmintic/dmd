@@ -8,9 +8,17 @@
     <nav class="topMenu">
         <ul>
             <li><router-link to="/">Home</router-link></li>
+            <li><router-link to="/">Recipes</router-link></li>
+            <li><router-link to="/">Cook Calculator</router-link></li>
+            <li><router-link to="/">Video</router-link></li>
+            <li><router-link to="/">Chefs</router-link></li>
+
+            <li><router-link to="/">Sign in</router-link></li>
+            
+
         
 
-            <li><a href="https://brights.com/" target="_blank">Brights</a></li>
+           <!-- <li><a href="https://brights.com/" target="_blank">Brights</a></li>-->
         </ul>
     </nav>
 </template>
@@ -35,8 +43,8 @@
 }
 
 .topMenu a:hover {
-    background-color: red;
-    color: white;
+    background-color: white;
+    color: lightpink;
 }
 </style>
 
