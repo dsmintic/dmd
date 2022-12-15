@@ -72,6 +72,11 @@
     align-items: flex-start;
 }
 
+.container a{
+    margin: 0;
+    padding: 0;
+}
+
 .container article{
   margin-left: 10px;
   margin-right: 10px;
