@@ -1,15 +1,13 @@
 /* @import './base.css'; */
 
-.topMenu .router-link-active {
+.container .router-link-active {
     background-color: white;
     color: black;
 }
 
 @import url('https://fonts.google.com/share?selection.family=Roboto:wght@100;400;700');
 
-html, body {
-  font-family: 'Roboto', sans-serif;
-}
+
 
 #app {
   font-family: 'Roboto', sans-serif;

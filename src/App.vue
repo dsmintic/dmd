@@ -1,5 +1,6 @@
 <script>
 import HeaderMain from './components/HeaderMain.vue';
+import FooterComponent from './components/FooterComponent.vue';
 
 
 export default{
@@ -14,6 +15,7 @@ export default{
             },
     components: {
     HeaderMain,
+    FooterComponent
    
 }
 }
@@ -32,8 +34,7 @@ export default{
   </main>
  
   <footer>
-    <!-- site map, sociall networks, legal stuff -->
-    <p>&copy; 2022, DMD Damn deliciuos</p>
+    <FooterComponent></FooterComponent>
   </footer>
 
 </template>

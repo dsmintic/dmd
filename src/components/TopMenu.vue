@@ -1,52 +1,64 @@
 <script>
-    export default {
+export default {
 
-    }
+}
 </script>
 
 <template>
-    <div class="topMenu">
-        
-            <router-link to="/">Home</router-link>
+
+    <section class="container">
+
+        <div>
+            <router-link to="/"><img src="../images/dmd_logo.png" class="logoimage"></router-link>
+        </div>
+
+        <div>
             <router-link to="/">Recipes</router-link>
             <router-link to="/">Cook Calculator</router-link>
             <router-link to="/">Video</router-link>
             <router-link to="/">Chefs</router-link>
-            <router-link to="/" class="right">Sign in</router-link>
+        </div>
 
-            <!-- <a href="https://brights.com/" class="right" target="_blank">Brights</a> -->
-        
-    </div>
+        <div>
+            <router-link to="/">Sign in</router-link>
+        </div>
+
+    </section>
 
 
 </template>
 
 <style>
-.topMenu {
-    list-style: none;
+.container {
     margin: 0;
     padding: 0;
-    text-align: left;
-    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3em;
 }
 
 
-.topMenu a {
+.container a {
     text-decoration: none;
     color: black;
-    /* color: inherit; */
     padding: 10px 20px;
     display: inline-block;
 }
 
-.topMenu a.right {
-    float: right;
+
+.container a:hover {
+    /* background-color: whitesmoke; */
+    color: #FF9F68;
+    opacity: 1;
+    /* font-weight: bold; */
 }
 
-.topMenu a:hover {
-    background-color: whitesmoke;
-    color: red;
-    font-weight: bold;
+.logoimage {
+    width: 125px;
+    padding: 0;
+    margin: 0;
 }
 </style>
 
