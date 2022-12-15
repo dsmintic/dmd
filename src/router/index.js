@@ -1,9 +1,13 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue';
+import { createRouter, createWebHistory, useRoute } from 'vue-router'
+import RecipesView from '../views/RecipesView.vue';
+import RecipeView from '../views/RecipeView.vue';
 import PageNotFoundView from '../views/PageNotFoundView.vue';
+import HomeView from '../views/HomeView.vue';
 
 const routes = [
-  { path:'/', name:'Home',  component:HomeView},
+  { path:'/', name:'Home', component:HomeView},
+  { path:'/recipes', name:'Recipes', component:RecipesView},
+  { path:'/recipe', name:'Recipe', component:RecipeView},
   
 
 
@@ -15,4 +19,4 @@ const router = createRouter({
   routes
 })
 
-export default router
+export default router;

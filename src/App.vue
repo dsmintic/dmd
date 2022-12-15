@@ -1,6 +1,7 @@
 <script>
 import HeaderMain from './components/HeaderMain.vue';
 import FooterComponent from './components/FooterComponent.vue';
+import RecipesView from './views/RecipeView.vue';
 
 
 export default{
@@ -15,7 +16,8 @@ export default{
             },
     components: {
     HeaderMain,
-    FooterComponent
+    FooterComponent,
+    RecipesView
    
 }
 }

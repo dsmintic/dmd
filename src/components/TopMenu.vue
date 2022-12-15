@@ -9,18 +9,18 @@ export default {
     <section class="container">
 
         <div>
-            <router-link to="/"><img src="../images/dmd_logo.png" class="logoimage"></router-link>
+            <router-link :to="{name:'Home'}"><img src="../images/dmd_logo.png" class="logoimage"></router-link>
         </div>
 
         <div>
-            <router-link to="/">Recipes</router-link>
-            <router-link to="/">Cook Calculator</router-link>
-            <router-link to="/">Video</router-link>
-            <router-link to="/">Chefs</router-link>
+            <router-link :to="{name:'Recipes'}">Recipes</router-link>
+            <router-link to="#">Cook Calculator</router-link>
+            <router-link to="#">Video</router-link>
+            <router-link to="#">Chefs</router-link>
         </div>
 
         <div>
-            <router-link to="/">Sign in</router-link>
+            <router-link to="#">Sign in</router-link>
         </div>
 
     </section>
