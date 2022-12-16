@@ -2,7 +2,7 @@
     <section class="container">
       <article>
           <h1 class="fontbold"><router-link :to="{ name:'Recipe'}">Title 1</router-link></h1>
-          <img src="../images/vine.png">
+          <img src="../images/Asian Chicken and Quinoa Salad.png">
           <p class="textfont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis mollitia officiis ad
             unde perspiciatis ratione. Voluptate commodi dignissimos distinctio. Animi in est eligendi corporis deleniti
             magnam qui ad culpa voluptate?</p>
@@ -10,7 +10,7 @@
   
       <article>
           <h1 class="fontbold">Title 2</h1>
-          <img src="../images/tradicionalne-hrvatske-salate.jpg">
+          <img src="../images/King Prawns and Clam Minestrone.png">
           <p class="textfont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis mollitia officiis ad
             unde perspiciatis ratione. Voluptate commodi dignissimos distinctio. Animi in est eligendi corporis deleniti
             magnam qui ad culpa voluptate?
@@ -24,7 +24,7 @@
   
       <article>
           <h1 class="fontbold">Title 3</h1>
-          <img src="../images/odojak.jpg">
+          <img src="../images/Avocado Toasts.png">
           <p class="textfont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis mollitia officiis ad
             unde perspiciatis ratione. Voluptate commodi dignissimos distinctio. Animi in est eligendi corporis deleniti
             magnam qui ad culpa voluptate?</p>
