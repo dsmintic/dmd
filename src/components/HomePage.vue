@@ -9,10 +9,14 @@
         
             </video>
            
-            <p class="textfont">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto quam veniam a,
+            
+        </article>
+        <p class="textfont">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto quam veniam a,
                 cumque, excepturi non
                 exercitationem temporibus maiores ipsam quod provident recusandae quos, eligendi ea saepe suscipit rerum
                 ipsa sapiente?</p>
+        <article>
+
         </article>
     </section>
 </template>
