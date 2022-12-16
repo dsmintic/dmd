@@ -1,8 +1,9 @@
 <template>
     <section class="container">
         <article>
-            <h1 class="fontbold">Recipes</h1>
-            <img src="../images/world-chefs.webp">
+           <!--<h1 class="fontbold">Recipes</h1>
+            <img src="../images/world-chefs.webp">--> 
+           
             <p class="textfont">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto quam veniam a,
                 cumque, excepturi non
                 exercitationem temporibus maiores ipsam quod provident recusandae quos, eligendi ea saepe suscipit rerum
