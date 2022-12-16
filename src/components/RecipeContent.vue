@@ -13,23 +13,23 @@ export default {
       <p>The butterless biscuits for these Benedicts are perfect for kids to make because they are so simple. For little
         and big kids: Let them help with measuring, mixing and cutting out the biscuits and making the eggless
         hollandaise.</p>
-      <p>Ingredients
-        Biscuits:<br>
-        120g all-purpose flour<br>
-        3 tablespoons chopped fresh chives, plus more for garnish<br>
-        1 tablespoon baking powder<br>
-        1 tablespoon sugar<br>
-        1 1/2 teaspoons kosher salt, plus more for sprinkling
-        170g fresh goat cheese, crumbled
-        240ml heavy cream, plus more for brushing
-        Quick Hollandaise:
+      <ul>Ingredients
+        <li>Biscuits:</li>
+        <li>120g all-purpose flour</li>
+        <li>3 tablespoons chopped fresh chives, plus more for garnish</li>
+        <li>1 tablespoon baking powder</li>
+        <li>1 tablespoon sugar</li>
+        <li>1 1/2 teaspoons kosher salt, plus more for sprinkling</li>
+        <li>170g fresh goat cheese, crumbled</li>
+        <li>240ml heavy cream, plus more for brushing</li>
+        <li>Quick Hollandaise:</li>
         115g mayonnaise
         1 tablespoon fresh lemon juice
         1/8 teaspoon paprika
         Kosher salt and freshly ground black pepper
         8 slices Canadian bacon
         8 large eggs
-      </p>
+      </ul>
       <p class="textfont">Method
         For the biscuits: Position an oven rack in the center of the oven, and preheat to 220 degrees C. Line a baking
         sheet with parchment.
