@@ -2,7 +2,7 @@
     <section class="container">
       <article>
           <h1 class="fontbold"><router-link :to="{ name:'Recipe'}">Title 1</router-link></h1>
-          <img src="../images/Asian Chicken and Quinoa Salad.png">
+          <img src="../images/BiscuitEggs.png">
           <p class="textfont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis mollitia officiis ad
             unde perspiciatis ratione. Voluptate commodi dignissimos distinctio. Animi in est eligendi corporis deleniti
             magnam qui ad culpa voluptate?</p>
