@@ -2,6 +2,7 @@
 import HeaderMain from './components/HeaderMain.vue';
 import FooterComponent from './components/FooterComponent.vue';
 import RecipesView from './views/RecipeView.vue';
+import VideoRecipes from './views/VideoRecipesView.vue';
 
 
 export default{
@@ -17,7 +18,8 @@ export default{
     components: {
     HeaderMain,
     FooterComponent,
-    RecipesView
+    RecipesView,
+    VideoRecipes
    
 }
 }

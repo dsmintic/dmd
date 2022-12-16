@@ -3,6 +3,11 @@
         <article>
            <!--<h1 class="fontbold">Recipes</h1>
             <img src="../images/world-chefs.webp">--> 
+
+            <video class= "video" width="700" controls autoplay>    
+            <source src="../video/homepagevideo.mp4" type="video/mp4">
+        
+            </video>
            
             <p class="textfont">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto quam veniam a,
                 cumque, excepturi non
@@ -50,5 +55,10 @@
     font-weight: 100;
     padding: 10px;
     margin: 0;
+}
+.video {
+    margin:20px;
+    padding: 20px;
+   
 }
 </style>
