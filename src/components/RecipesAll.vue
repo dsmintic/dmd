@@ -1,11 +1,9 @@
 <template>
     <section class="container">
       <article>
-          <h1 class="fontbold"><router-link :to="{ name:'Recipe'}">Title 1</router-link></h1>
+          <h1 class="fontbold"><router-link :to="{ name:'Recipe'}">Biscuit Eggs</router-link></h1>
           <img src="../images/BiscuitEggs.png">
-          <p class="textfont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis mollitia officiis ad
-            unde perspiciatis ratione. Voluptate commodi dignissimos distinctio. Animi in est eligendi corporis deleniti
-            magnam qui ad culpa voluptate?</p>
+          <p class="textfont">The butterless biscuits for these Benedicts are perfect for kids to make because they are so simple. For little and big kids: Let them help with measuring, mixing and cutting out the biscuits and making the eggless hollandaise.</p>
       </article>
   
       <article>
