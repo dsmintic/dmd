@@ -35,6 +35,7 @@
     <section class="container">
       <article>
           <h1 class="fontbold">Title 4</h1>
+          <img src="../images/Chicken Kabobs with Grilled Onions.png">
   
           <p class="textfont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis mollitia officiis ad
             unde perspiciatis ratione. Voluptate commodi dignissimos distinctio. Animi in est eligendi corporis deleniti
@@ -43,6 +44,7 @@
   
       <article>
           <h1 class="fontbold">Title 5</h1>
+          <img src="../images/French omelette.png">
   
           <p class="textfont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis mollitia officiis ad
             unde perspiciatis ratione. Voluptate commodi dignissimos distinctio. Animi in est eligendi corporis deleniti
@@ -51,6 +53,7 @@
   
       <article>
           <h1 class="fontbold">Title 6</h1>
+          <img src="../images/Prosciutto Lamb Burgers.png">
   
           <p class="textfont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis mollitia officiis ad
             unde perspiciatis ratione. Voluptate commodi dignissimos distinctio. Animi in est eligendi corporis deleniti
@@ -58,7 +61,65 @@
       </article>
     </section>
   
+    <section class="container">
+      <article>
+          <h1 class="fontbold">Title 4</h1>
+          <img src="../images/Tomato Soup.png">
   
+          <p class="textfont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis mollitia officiis ad
+            unde perspiciatis ratione. Voluptate commodi dignissimos distinctio. Animi in est eligendi corporis deleniti
+            magnam qui ad culpa voluptate?</p>
+      </article>
+  
+      <article>
+          <h1 class="fontbold">Title 5</h1>
+          <img src="../images/Tenderstem, Bacon and Egg Brunch Salad.png">
+  
+          <p class="textfont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis mollitia officiis ad
+            unde perspiciatis ratione. Voluptate commodi dignissimos distinctio. Animi in est eligendi corporis deleniti
+            magnam qui ad culpa voluptate?</p>
+      </article>
+  
+      <article>
+          <h1 class="fontbold">Title 6</h1>
+          <img src="../images/Steak on Garlic Toast with Provolone and Parsley oil.png">
+  
+          <p class="textfont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis mollitia officiis ad
+            unde perspiciatis ratione. Voluptate commodi dignissimos distinctio. Animi in est eligendi corporis deleniti
+            magnam qui ad culpa voluptate?</p>
+      </article>
+    </section>
+    
+    <section class="container">
+      <article>
+          <h1 class="fontbold">Title 4</h1>
+          <img src="../images/5-Minute Yoghurt and Fruit Parfaits.png">
+  
+          <p class="textfont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis mollitia officiis ad
+            unde perspiciatis ratione. Voluptate commodi dignissimos distinctio. Animi in est eligendi corporis deleniti
+            magnam qui ad culpa voluptate?</p>
+      </article>
+  
+      <article>
+          <h1 class="fontbold">Title 5</h1>
+          <img src="../images/Spicy Hoisin Glazed Aubergine.png">
+  
+          <p class="textfont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis mollitia officiis ad
+            unde perspiciatis ratione. Voluptate commodi dignissimos distinctio. Animi in est eligendi corporis deleniti
+            magnam qui ad culpa voluptate?</p>
+      </article>
+  
+      <article>
+          <h1 class="fontbold">Title 6</h1>
+          <img src="../images/Smoked Salmon and Sugar Snap Pea Salad in a Jar.png">
+  
+          <p class="textfont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis mollitia officiis ad
+            unde perspiciatis ratione. Voluptate commodi dignissimos distinctio. Animi in est eligendi corporis deleniti
+            magnam qui ad culpa voluptate?</p>
+      </article>
+    </section>
+
+
   
   </template>
 
