@@ -10,10 +10,12 @@ export default {
     <article>
       <h1 class="fontbold">Biscuit Eggs</h1>
       <img src="../images/BiscuitEggs.png">
-      <p>The butterless biscuits for these Benedicts are perfect for kids to make because they are so simple. For little
+      <h4 class="fontbold">Summary</h4>
+      <p class="textfont">The butterless biscuits for these Benedicts are perfect for kids to make because they are so
+        simple. For little
         and big kids: Let them help with measuring, mixing and cutting out the biscuits and making the eggless
         hollandaise.</p>
-      <ul>Ingredients
+      <ul class="textfont">Ingredients:
         <li>Biscuits:</li>
         <li>120g all-purpose flour</li>
         <li>3 tablespoons chopped fresh chives, plus more for garnish</li>
@@ -22,15 +24,17 @@ export default {
         <li>1 1/2 teaspoons kosher salt, plus more for sprinkling</li>
         <li>170g fresh goat cheese, crumbled</li>
         <li>240ml heavy cream, plus more for brushing</li>
-        <li>Quick Hollandaise:</li>
-        115g mayonnaise
-        1 tablespoon fresh lemon juice
-        1/8 teaspoon paprika
-        Kosher salt and freshly ground black pepper
-        8 slices Canadian bacon
-        8 large eggs
       </ul>
-      <p class="textfont">Method
+      <ul class="textfont">Quick Hollandaise:
+        <li>115g mayonnaise</li>
+        <li>1 tablespoon fresh lemon juice</li>
+        <li>1/8 teaspoon paprika</li>
+        <li>Kosher salt and freshly ground black pepper</li>
+        <li>8 slices Canadian bacon</li>
+        <li>8 large eggs</li>
+      </ul>
+      <h4 class="fontbold">Method</h4>
+      <p class="textfont">
         For the biscuits: Position an oven rack in the center of the oven, and preheat to 220 degrees C. Line a baking
         sheet with parchment.
         Whisk together the flour, chives, baking powder, sugar and salt in a large bowl. Add the goat cheese, and toss,
@@ -50,6 +54,47 @@ export default {
         still soft. Remove the eggs with a slotted spoon, and place on top of the Canadian bacon slices. Drizzle with
         hollandaise, sprinkle with chives and sandwich each with a biscuit top
       </p>
+      <div class="align-right">
+        <a th:href="#">
+          <button class="green-btn blue-btn" type="button">Edit Recipe</button>
+        </a>
+      </div>
+
+      <div class="comments">
+        <h2>Comments</h2>
+        <div class="comment">
+          <h5>Comment date and by whom</h5>
+          <p>Body - Comment text</p>
+        </div>
+      </div>
+
+      <div class="align-right">
+        <a th:data-confirm-delete="|Are you sure you want to delete this comment ${comment}?|"
+          onclick="if (!confirm(this.getAttribute('data-confirm-delete'))) return false"
+          th:href="@{/deleteComment/{id}(id=${comment.id})}">
+          <button class="green-btn red-btn" type="button">Delete Comment</button>
+        </a>
+      </div>
+
+      <div class="align-center">
+        <a th:href="@{'/comment/{id}'(id=${post.id})}">
+          <button class="green-btn" type="button">Comment Recipe</button>
+        </a>
+      </div>
+
+
+      <hr>
+
+      <a href="#top">
+        <button class="green-btn purple-btn" type="button">Back to top of page</button>
+      </a>
+
+      <router-link :to="{name:'Recipes'}">
+        <button class="green-btn purple-btn" type="button">Back to recipes</button>
+      </router-link>
+
+      <hr>
+
     </article>
   </section>
 
@@ -67,7 +112,7 @@ export default {
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
-  flex-basis: 33%;
+  flex-basis: 50%;
 }
 
 .container article img {
@@ -78,6 +123,15 @@ export default {
 .container article p {
   font-size: medium;
   background-color: #FFF6ED;
+}
+
+.container article ul {
+  font-size: medium;
+  background-color: #FFF6ED;
+}
+
+.container article li {
+  margin-left: 20px;
 }
 
 
@@ -92,5 +146,53 @@ export default {
   font-weight: 100;
   padding: 10px;
   margin: 0;
+}
+
+.green-btn {
+    background-color: #3DDD84;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.green-btn:hover {
+    background-color: #555555;
+}
+
+.red-btn {
+    background-color: #f44336;
+}
+
+.blue-btn {
+    background-color: #00B2CE;
+}
+.purple-btn{
+    background-color: #AA54A1;
+}
+
+input, select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
 }
 </style>
