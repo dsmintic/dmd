@@ -1,7 +1,7 @@
 <template>
     <section class="container">
         <article>
-            <h1 class="fontbold">Home page</h1>
+            <h1 class="fontbold">Recipes</h1>
             <img src="../images/world-chefs.webp">
             <p class="textfont">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto quam veniam a,
                 cumque, excepturi non
