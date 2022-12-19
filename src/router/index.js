@@ -4,12 +4,14 @@ import RecipeView from '../views/RecipeView.vue';
 import PageNotFoundView from '../views/PageNotFoundView.vue';
 import HomeView from '../views/HomeView.vue';
 import VideoRecipesView from '../views/VideoRecipesView.vue';
+import AddRecipeView from '../views/AddRecipeView.vue'
 
 const routes = [
   { path:'/', name:'Home', component:HomeView},
   { path:'/recipes', name:'Recipes', component:RecipesView},
   { path:'/recipe', name:'Recipe', component:RecipeView},
   { path:'/video', name:'Video', component: VideoRecipesView},
+  { path:'/addrecipe', name:'Add Recipe', component: AddRecipeView},
   
 
 
