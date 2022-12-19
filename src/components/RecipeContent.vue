@@ -123,7 +123,6 @@ export default {
 }
 
 .container article p {
-
   font-size: medium;
   background-color: #FFF6ED;
 }

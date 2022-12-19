@@ -26,8 +26,7 @@
       </article> </section>
 
     
-  
-  
+
     <section class="container">
      
   
