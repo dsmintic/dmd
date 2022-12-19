@@ -56,7 +56,7 @@ export default {
       </p>
       <div class="align-right">
         <a th:href="#">
-          <button class="green-btn blue-btn" type="button">Edit Recipe</button>
+          <button class="peach-btn blue-btn" type="button">Edit Recipe</button>
         </a>
       </div>
 
@@ -72,29 +72,23 @@ export default {
         <a th:data-confirm-delete="|Are you sure you want to delete this comment ${comment}?|"
           onclick="if (!confirm(this.getAttribute('data-confirm-delete'))) return false"
           th:href="@{/deleteComment/{id}(id=${comment.id})}">
-          <button class="green-btn red-btn" type="button">Delete Comment</button>
+          <button class="peach-btn red-btn" type="button">Delete Comment</button>
         </a>
       </div>
 
       <div class="align-center">
         <a th:href="@{'/comment/{id}'(id=${post.id})}">
-          <button class="green-btn" type="button">Comment Recipe</button>
+          <button class="peach-btn" type="button">Comment Recipe</button>
         </a>
       </div>
 
 
       <hr>
-
-      <a href="#top">
-        <button class="green-btn purple-btn" type="button">Back to top of page</button>
-      </a>
-
-      <router-link :to="{name:'Recipes'}">
-        <button class="green-btn purple-btn" type="button">Back to recipes</button>
-      </router-link>
-
+      <div class="bottomlinks">
+        <a href="#top">Back to top of page</a>
+        <router-link :to="{ name: 'Recipes' }">Back to recipes</router-link>
+      </div>
       <hr>
-
     </article>
   </section>
 
@@ -125,6 +119,11 @@ export default {
   background-color: #FFF6ED;
 }
 
+.container article a {
+  font-size: medium;
+  font-weight: bold;
+}
+
 .container article ul {
   font-size: medium;
   background-color: #FFF6ED;
@@ -148,51 +147,54 @@ export default {
   margin: 0;
 }
 
-.green-btn {
-    background-color: #3DDD84;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
+.peach-btn {
+  background-color: #FFDAB9;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 .green-btn:hover {
-    background-color: #555555;
+  background-color: #555555;
 }
 
 .red-btn {
-    background-color: #f44336;
+  background-color: #f44336;
 }
 
 .blue-btn {
-    background-color: #00B2CE;
-}
-.purple-btn{
-    background-color: #AA54A1;
+  background-color: #00B2CE;
 }
 
-input, select {
-    width: 20%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+.bottomlinks{
+  display: flex;
+  justify-content: space-between;
+}
+
+input,
+select {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
 textarea {
-    width: 100%;
-    height: 150px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    background-color: #f8f8f8;
-    resize: none;
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
 }
 </style>
