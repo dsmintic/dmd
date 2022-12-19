@@ -13,7 +13,7 @@
             <img src="../images/world-chefs.webp">-->
 
             <video class="video" width="700" controls autoplay>
-                <source src="../video/homepagevideo.mp4" type="video/mp4">
+                <source src="../video/home_page_video.mp4" type="video/mp4">
 
             </video>
         </article>
