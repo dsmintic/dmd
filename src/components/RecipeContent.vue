@@ -15,8 +15,27 @@ export default {
         simple. For little
         and big kids: Let them help with measuring, mixing and cutting out the biscuits and making the eggless
         hollandaise.</p>
-      <ul class="textfont">Ingredients:
-        <li>Biscuits:</li>
+
+      <h4 class="fontbold">Ingredients</h4>
+      <ul>
+        <li>smooth flour</li>
+        <li>chive</li>
+        <li>baking powder</li>
+        <li>sugar</li>
+        <li>kosher salt</li>
+        <li>goat cheese</li>
+        <li>heavy cream</li>
+        <li>mayonnaise</li>
+        <li>lemon</li>
+        <li>paprika</li>
+        <li>black pepper</li>
+        <li>bacon</li>
+        <li>eggs</li>
+      </ul>
+      <h4 class="fontbold">Method</h4>
+
+      <ul>
+        <p>Biscuits:</p>
         <li>120g all-purpose flour</li>
         <li>3 tablespoons chopped fresh chives, plus more for garnish</li>
         <li>1 tablespoon baking powder</li>
@@ -24,8 +43,7 @@ export default {
         <li>1 1/2 teaspoons kosher salt, plus more for sprinkling</li>
         <li>170g fresh goat cheese, crumbled</li>
         <li>240ml heavy cream, plus more for brushing</li>
-      </ul>
-      <ul class="textfont">Quick Hollandaise:
+        <p>Quick Hollandaise:</p>
         <li>115g mayonnaise</li>
         <li>1 tablespoon fresh lemon juice</li>
         <li>1/8 teaspoon paprika</li>
@@ -33,7 +51,6 @@ export default {
         <li>8 slices Canadian bacon</li>
         <li>8 large eggs</li>
       </ul>
-      <h4 class="fontbold">Method</h4>
       <p class="textfont">
         For the biscuits: Position an oven rack in the center of the oven, and preheat to 220 degrees C. Line a baking
         sheet with parchment.
@@ -55,29 +72,22 @@ export default {
         hollandaise, sprinkle with chives and sandwich each with a biscuit top
       </p>
       <div>
-        <a class="edit" th:href="#">Edit Recipe</a>
+        <a class="myButton" th:href="#">Edit Recipe</a>
       </div>
 
-      <div class="comments">
-        <h2>Comments</h2>
-        <div class="comment">
+      <hr>
+      <div>
+        <h4 class="h4_comment">Comments</h4>
+        <div>
           <h5>Comment date and by whom</h5>
           <p>Body - Comment text</p>
         </div>
       </div>
 
-      <div class="align-right">
-        <a th:data-confirm-delete="|Are you sure you want to delete this comment ${comment}?|"
-          onclick="if (!confirm(this.getAttribute('data-confirm-delete'))) return false"
-          th:href="@{/deleteComment/{id}(id=${comment.id})}">
-          <button class="peach-btn red-btn" type="button">Delete Comment</button>
-        </a>
-      </div>
+      <div class="container_buttons">
+        <a class="myButton_delete" th:href="#">Delete Comment</a>
 
-      <div class="align-center">
-        <a th:href="@{'/comment/{id}'(id=${post.id})}">
-          <button class="peach-btn" type="button">Comment Recipe</button>
-        </a>
+        <a class="myButton_comment" th:href="#">Comment Recipe</a>
       </div>
 
 
@@ -113,6 +123,7 @@ export default {
 }
 
 .container article p {
+
   font-size: medium;
   background-color: #FFF6ED;
 }
@@ -125,10 +136,20 @@ export default {
 .container article ul {
   font-size: medium;
   background-color: #FFF6ED;
+  padding: 5px;
+  margin: 0px;
 }
 
 .container article li {
   margin-left: 20px;
+}
+
+.container_buttons {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  margin-bottom: 0;
 }
 
 
@@ -148,8 +169,8 @@ export default {
 .peach-btn {
   background-color: #FFDAB9;
   border: none;
-  color: white;
-  padding: 15px 32px;
+  color: black;
+  padding: 13px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -162,14 +183,14 @@ export default {
 }
 
 .red-btn {
-  background-color: #f44336;
+  background-color: #FFB9BB;
 }
 
 .blue-btn {
   background-color: #00B2CE;
 }
 
-.bottomlinks{
+.bottomlinks {
   display: flex;
   justify-content: space-between;
 }
@@ -196,66 +217,82 @@ textarea {
   resize: none;
 }
 
-
-.edit body {
-  background: #2f2f31;
-  transform: rotateX(0.003deg);
-  height: 100vh;
-  color: #fff;
-} */
-
-
-.edit {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  color: #cecd24;
+.myButton {
+  box-shadow: 0px 10px 14px -7px #276873;
+  margin-top: 5px;
+  background-color: #B9DEFF;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 25px;
   text-decoration: none;
-  font-size: 2em;
+}
+
+.myButton:hover {
+  background-color: #FFDAB9;
+  color: white;
+}
+
+.myButton:active {
+  position: relative;
+  top: 2px;
+}
+
+.h4_comment {
+  background-color: #FF9F68;
+  padding: 20px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.myButton_delete {
+  box-shadow: 0px 10px 14px -7px #276873;
+  margin-top: 5px;
+  background-color: #FFB9BB;
+  border-radius: 8px;
   display: inline-block;
-  font-family: Montserrat;
-  text-transform: uppercase;
-  padding: 0.5em 2em;
-  border: 2px solid #cecd24;
-  transition: 0.02s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
+  cursor: pointer;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 25px;
+  text-decoration: none;
 }
-.edit::before {
-  content: "";
+
+.myButton_delete:hover {
+  background-color: #FFDAB9;
+  color: white;
+}
+
+.myButton_delete:active {
+  position: relative;
+  top: 2px;
+}
+
+.myButton_comment {
+  box-shadow: 0px 10px 14px -7px #276873;
+  margin-top: 5px;
+  background-color: #B9DEFF;
+  border-radius: 8px;
   display: inline-block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 100%;
-  bottom: 0;
-  background: #cecd24;
-  transition: 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1), left 0.3s cubic-bezier(0.1, 0, 0.1, 1);
-  z-index: -1;
+  cursor: pointer;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 25px;
+  text-decoration: none;
 }
-.edit::after {
-  content: "";
-  display: inline-block;
-  background-image: url("https://cdn-icons-png.flaticon.com/128/109/109617.png");
-  position: absolute;
-  top: 0;
-  left: calc(100% - 3em);
-  right: 3em;
-  bottom: 0;
-  background-size: 1.5em;
-  background-repeat: no-repeat;
-  background-position: center;
-  transition: right 0.3s cubic-bezier(0.1, 0, 0.1, 1);
+
+.myButton_comment:hover {
+  background-color: #FFDAB9;
+  color: white;
 }
-.edit:hover {
-  padding: 0.5em 3.5em 0.5em 0.5em;
-}
-.edit:hover::before {
-  left: calc(100% - 3em);
-  right: 0;
-  transition: 0.3s cubic-bezier(0.1, 0, 0.1, 1), left 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
-}
-.edit:hover::after {
-  right: 0;
-  transition: right 0.3s 0.2s cubic-bezier(0.1, 0, 0.1, 1);
+
+.myButton_comment:active {
+  position: relative;
+  top: 2px;
 }
 </style>
