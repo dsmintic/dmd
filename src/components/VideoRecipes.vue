@@ -4,8 +4,8 @@
     <section class="container">
         <article>
             <h4 class="fontbold">Video 1</h4>
-            <video width="400" controls>
-                <source src="../video/Color egg.mp4" type="video/mp4">
+            <video width="400" hight="200" controls>
+                <source src="../video/color_egg.mp4" type="video/mp4">
             </video>
             <p class="textfont">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto quam veniam a,
                 cumque, excepturi non
@@ -15,8 +15,8 @@
     
         <article>
             <h4 class="fontbold">Video 2</h4>
-            <video  width="400" controls >
-                <source src="../video/all cakes.mp4" type="video/mp4">
+            <video  width="400" hight="200" controls >
+                <source src="../video/fruit_dessert_cups.mp4" type="video/mp4">
             </video>
             <p class="textfont">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto quam veniam a,
                 cumque, excepturi non
@@ -27,7 +27,7 @@
         <article>
             <h4 class="fontbold">Video 3</h4>
         <video width="400" controls >
-                <source src="../video/Tiramisu dessert cups.mp4" type="video/mp4">
+                <source src="../video/tiramisu_dessert_cups.mp4" type="video/mp4">
             </video>
             <p class="textfont">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto quam veniam a,
                 cumque, excepturi non
@@ -40,7 +40,7 @@
         <article>
             <h4 class="fontbold">Video 4</h4>
             <video width="400" controls>
-                <source src="../video/Fruit Dessert cups.mp4" type="video/mp4">
+                <source src="../video/all_cakes.mp4" type="video/mp4">
             </video>
             <p class="textfont">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto quam veniam a,
                 cumque, excepturi non
@@ -51,7 +51,7 @@
         <article>
             <h4 class="fontbold">Video 5</h4>
             <video  width="400" controls >
-                <source src="../video/all cakes.mp4" type="video/mp4">
+                <source src="../video/egg_toast.mp4" type="video/mp4">
             </video>
             <p class="textfont">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto quam veniam a,
                 cumque, excepturi non
@@ -62,7 +62,7 @@
         <article>
             <h4 class="fontbold">Video 6</h4>
         <video width="400" controls >
-                <source src="../video/allRecipes.mp4" type="video/mp4">
+                <source src="../video/all_recipes.mp4" type="video/mp4">
             </video>
             <p class="textfont">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto quam veniam a,
                 cumque, excepturi non
