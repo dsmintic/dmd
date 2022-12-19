@@ -33,7 +33,7 @@
   
       <article>
           <h1 class="fontbold">Bacon and Egg Brunch Salad</h1>
-          <img src="../images/tradicionalne-hrvatske-salate.jpg">
+          <img src="../images/salad.png">
   
           <p class="textfont">A healthy but delicious beginning to your day.</p>
       </article>
