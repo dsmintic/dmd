@@ -90,7 +90,7 @@
     
     <section class="container">
       <article>
-          <h1 class="fontbold">Title 4</h1>
+          <h1 class="fontbold">Title 12</h1>
           <img src="../images/5-Minute Yoghurt and Fruit Parfaits.png">
   
           <p class="textfont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis mollitia officiis ad
@@ -99,8 +99,27 @@
       </article>
   
       <article>
-          <h1 class="fontbold">Title 5</h1>
+          <h1 class="fontbold">Title 11</h1>
           <img src="../images/Spicy Hoisin Glazed Aubergine.png">
+  
+          <p class="textfont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis mollitia officiis ad
+            unde perspiciatis ratione. Voluptate commodi dignissimos distinctio. Animi in est eligendi corporis deleniti
+            magnam qui ad culpa voluptate?</p>
+      </article></section>
+
+      <section class="container">
+  
+      <article>
+          <h1 class="fontbold">Title 7</h1>
+          <img src="../images//Lemon Pudding Cake with Fresh Mixed Berries.jpg">
+  
+          <p class="textfont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis mollitia officiis ad
+            unde perspiciatis ratione. Voluptate commodi dignissimos distinctio. Animi in est eligendi corporis deleniti
+            magnam qui ad culpa voluptate?</p>
+      </article>
+      <article>
+          <h1 class="fontbold">Title 8</h1>
+          <img src="../images/Angel Food Cake.jpg">
   
           <p class="textfont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis mollitia officiis ad
             unde perspiciatis ratione. Voluptate commodi dignissimos distinctio. Animi in est eligendi corporis deleniti
@@ -108,14 +127,42 @@
       </article>
   
       <article>
-          <h1 class="fontbold">Title 6</h1>
-          <img src="../images/Smoked Salmon and Sugar Snap Pea Salad in a Jar.png">
+          <h1 class="fontbold">Title 9</h1>
+          <img src="../images/Carrot cake cupcakes.jpg">
   
           <p class="textfont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis mollitia officiis ad
             unde perspiciatis ratione. Voluptate commodi dignissimos distinctio. Animi in est eligendi corporis deleniti
             magnam qui ad culpa voluptate?</p>
-      </article>
-    </section>
+      </article></section>
+
+      <section class="container">
+  
+  <article>
+      <h1 class="fontbold">Title 7</h1>
+      <img src="../images/Cream Cake with blueberries.jpg">
+
+      <p class="textfont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis mollitia officiis ad
+        unde perspiciatis ratione. Voluptate commodi dignissimos distinctio. Animi in est eligendi corporis deleniti
+        magnam qui ad culpa voluptate?</p>
+  </article>
+  <article>
+      <h1 class="fontbold">Title 8</h1>
+      <img src="../images/Griddled cake sundaes with raspberry topping.jpg">
+
+      <p class="textfont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis mollitia officiis ad
+        unde perspiciatis ratione. Voluptate commodi dignissimos distinctio. Animi in est eligendi corporis deleniti
+        magnam qui ad culpa voluptate?</p>
+  </article>
+
+  <article>
+      <h1 class="fontbold">Title 9</h1>
+      <img src="../images/Little Devils Food Cakes.jpg">
+
+      <p class="textfont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis mollitia officiis ad
+        unde perspiciatis ratione. Voluptate commodi dignissimos distinctio. Animi in est eligendi corporis deleniti
+        magnam qui ad culpa voluptate?</p>
+  </article></section>
+   
 
 
   
