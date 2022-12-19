@@ -5,23 +5,70 @@
         <article>
             <h4 class="fontbold">Video 1</h4>
             <video width="400" controls>
-                <source src="../video/coloreggs.mp4" type="video/mp4">
-            </video></div>
-            <div>
+                <source src="../video/Color egg.mp4" type="video/mp4">
+            </video>
+            <p class="textfont">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto quam veniam a,
+                cumque, excepturi non
+                exercitationem temporibus maiores ipsam quod provident recusandae quos, eligendi ea saepe suscipit rerum
+                ipsa sapiente?</p>
+        </article>     
+    
+        <article>
+            <h4 class="fontbold">Video 2</h4>
             <video  width="400" controls >
-                <source src="../video/eggvideo.mp4" type="video/mp4">
-            </video></div>
-            <div>
-            <video width="400" controls >
-                <source src="../video/allRecipes.mp4" type="video/mp4">
-            </video></div>
-
+                <source src="../video/all cakes.mp4" type="video/mp4">
+            </video>
             <p class="textfont">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto quam veniam a,
                 cumque, excepturi non
                 exercitationem temporibus maiores ipsam quod provident recusandae quos, eligendi ea saepe suscipit rerum
                 ipsa sapiente?</p>
         </article>
 
+        <article>
+            <h4 class="fontbold">Video 3</h4>
+        <video width="400" controls >
+                <source src="../video/Tiramisu dessert cups.mp4" type="video/mp4">
+            </video>
+            <p class="textfont">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto quam veniam a,
+                cumque, excepturi non
+                exercitationem temporibus maiores ipsam quod provident recusandae quos, eligendi ea saepe suscipit rerum
+                ipsa sapiente?</p>
+        </article>  
+    </section>
+
+    <section class="container">
+        <article>
+            <h4 class="fontbold">Video 4</h4>
+            <video width="400" controls>
+                <source src="../video/Fruit Dessert cups.mp4" type="video/mp4">
+            </video>
+            <p class="textfont">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto quam veniam a,
+                cumque, excepturi non
+                exercitationem temporibus maiores ipsam quod provident recusandae quos, eligendi ea saepe suscipit rerum
+                ipsa sapiente?</p>
+        </article>     
+    
+        <article>
+            <h4 class="fontbold">Video 5</h4>
+            <video  width="400" controls >
+                <source src="../video/all cakes.mp4" type="video/mp4">
+            </video>
+            <p class="textfont">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto quam veniam a,
+                cumque, excepturi non
+                exercitationem temporibus maiores ipsam quod provident recusandae quos, eligendi ea saepe suscipit rerum
+                ipsa sapiente?</p>
+        </article>
+
+        <article>
+            <h4 class="fontbold">Video 6</h4>
+        <video width="400" controls >
+                <source src="../video/allRecipes.mp4" type="video/mp4">
+            </video>
+            <p class="textfont">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto quam veniam a,
+                cumque, excepturi non
+                exercitationem temporibus maiores ipsam quod provident recusandae quos, eligendi ea saepe suscipit rerum
+                ipsa sapiente?</p>
+        </article>  
     </section>
 
 
