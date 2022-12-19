@@ -9,11 +9,20 @@
             </video></div>
             <div>
             <video  width="400" controls >
-                <source src="../video/eggvideo.mp4" type="video/mp4">
+                <source src="../video/Color egg.mp4" type="video/mp4">
             </video></div>
             <div>
             <video width="400" controls >
                 <source src="../video/allRecipes.mp4" type="video/mp4">
+            </video></div>
+
+            <div>
+            <video width="400" controls >
+                <source src="../video/Fruit Dessert cups.mp4" type="video/mp4">
+            </video></div>
+            <div>
+            <video width="400" controls >
+                <source src="../video/Tiramisu dessert cups.mp4" type="video/mp4">
             </video></div>
 
             <p class="textfont">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto quam veniam a,
