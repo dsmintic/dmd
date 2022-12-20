@@ -1,65 +1,60 @@
 <template>
-    <section class="container">
-       
+  <section class="container">
 
-        <article>
+    <!-- <router-link :to="{name:'Home'}"><img src="../images/dmd_logo.png" class="logoimage"></router-link> -->
 
-        <div class="picture">Damir Šmintić
-         <img src="../images/Damir_chefs.png">
-          
-        </div></article>
-       
+    <article>
+      <p>Damir Šmintić</p>
+      <img src="../images/Damir_chefs.png">
+    </article>
 
-        <article>
-        <div class="picture">Marija Mamić
-          <img src="../images/Marija_chefs.png">
-        </div></article>
-          
-        
-       <article>
-      <div class="picture">Denis Križak
-          <img  src="../images/Denis_chefs.png">
-          
-      </div></article>
-     
+    <article>
+      <p>Marija Mamić</p>
+      <img src="../images/Marija_chefs.png">
+    </article>
 
-
-    </section>
+    <article>
+      <p>Denis Križak</p>
+      <img src="../images/Denis_chefs.png">
+    </article>
+  </section>
 </template>
 
 <style scoped>
 .container {
-    overflow: hidden;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  
 }
 
-.container a{
-    margin: 0;
-    padding: 0;
-}
-
-.container article{
+.container article {
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
-  flex-basis: 33%;
+  width: 33%;
+  text-align: center;
 }
 
-.container article img{
-  width: 100%;
+.container article img {
+  width: 50%;
   display: block;
+  margin: auto;
+  border: 2px solid black;
 }
 
-.container article p{
-  font-size: medium;
-  background-color: #FFF6ED;
+.container article p {
+  font-size: 700;
 }
 
+.container a {
+  margin: 0;
+  padding: 0;
+}
 
 .fontbold {
-  background-color:peachpuff;
+  background-color: peachpuff;
   padding: 20px;
   font-weight: 700;
   margin: 0;
@@ -70,10 +65,4 @@
   padding: 10px;
   margin: 0;
 }
-
-.picture {
-    height: auto;
-    width: f-content;
-}
-
 </style>
