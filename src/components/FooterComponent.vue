@@ -11,6 +11,9 @@ export default {
             <img src="../images/dmd_logo.png" class="logoimage">
         </article>
 
+        <i class="fa-brands fa-facebook"></i>
+
+
 
 
     </section>
