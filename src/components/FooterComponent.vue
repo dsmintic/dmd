@@ -50,6 +50,10 @@ export default {
     margin-bottom: 10px;
 }
 
+.socialmedia a {
+    color: inherit
+}
+
 .socialmedia a:visited{
     color: inherit
 }
