@@ -6,6 +6,7 @@ import HomeView from '../views/HomeView.vue';
 import VideoRecipesView from '../views/VideoRecipesView.vue';
 import AddRecipeView from '../views/AddRecipeView.vue'
 import AddCommentView from '../views/AddCommentView.vue'
+import EditCommentView from '../views/EditCommentView.vue'
 import ChefsView from '../views/ChefsView.vue'
 
 const routes = [
@@ -15,6 +16,7 @@ const routes = [
   { path:'/video', name:'Video', component: VideoRecipesView},
   { path:'/addrecipe', name:'Add Recipe', component: AddRecipeView},
   { path:'/addcomment', name:'Add Comment', component: AddCommentView},
+  { path:'/editcomment', name:'Edit Comment', component: EditCommentView},
   { path:'/chefs', name:'Chefs', component: ChefsView},
   
 

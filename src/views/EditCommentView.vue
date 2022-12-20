@@ -10,5 +10,5 @@ export default {
 </script>
 
 <template>
-    <CommentForm></CommentForm>
+    <CommentEdit></CommentEdit>
 </template>
