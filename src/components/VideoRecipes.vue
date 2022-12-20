@@ -16,7 +16,7 @@
         <article>
             <h4 class="fontbold">Video 2</h4>
             <video controls >
-                <source src="../video/fruit_dessert_cups.mp4" type="video/mp4">
+                <source src="../video/Fruit_desert.mp4" type="video/mp4">
             </video>
             <p class="textfont">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto quam veniam a,
                 cumque, excepturi non
@@ -27,7 +27,7 @@
         <article>
             <h4 class="fontbold">Video 3</h4>
         <video controls >
-                <source src="../video/tiramisu_dessert_cups.mp4" type="video/mp4">
+                <source src="../video/tiramisu_desert.mp4" type="video/mp4">
             </video>
             <p class="textfont">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto quam veniam a,
                 cumque, excepturi non
@@ -51,7 +51,7 @@
         <article>
             <h4 class="fontbold">Video 5</h4>
             <video controls >
-                <source src="../video/egg_toast.mp4" type="video/mp4">
+                <source src="../video/egg_and_backon.mp4" type="video/mp4">
             </video>
             <p class="textfont">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto quam veniam a,
                 cumque, excepturi non
