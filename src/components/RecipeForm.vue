@@ -29,8 +29,17 @@
                 <!-- Dennis - Ingredients adding + - -->
 
                 <p><label for="title">Method:</label>
-                    <textarea class="textarea" placeholder="Please enter the cooking method" rows="20"></textarea>
+                    <textarea class="textarea" placeholder="Please enter the cooking method" rows="50"></textarea>
                 </p>
+
+                <div class="container_buttons">
+                    <input style="display:none" type="file" @change="onFileSelected" ref="fileInput">
+                    <button class="myButton" @click="$refs.fileInput.click()">Pick recipe picture</button>
+                </div>
+
+                <div class="container_buttons">
+                    <button class="myButton" type="submit" @click="onUpload">Upload</button>
+                </div>
 
                 <div class="container_buttons">
                     <p><input class="myButton" type="submit" value="Add recipe"></p>
@@ -71,7 +80,8 @@
 
 
 :focus-visible {
-    outline-color: #FFBF86;
+    /* outline-color: #FFBF86; */
+    outline-color: #B9DEFF;
     outline-offset: 3px;
     border-color: #FFDAB9;
     border-style: solid;
@@ -82,8 +92,9 @@
     width: 50%;
     background-color: white;
     height: 25px;
-    border-bottom: 1px solid black;
+    border: transparent;
     box-shadow: inset 2px 2px 2px grey, 0 -1px 1px white;
+    vertical-align: top;
 }
 
 #formRecipe textarea {
@@ -112,12 +123,13 @@
     /* border: 3px solid transparent;
    box-shadow: inset 0 1px 2px rgba(0,0,0,4); */
     /* border-bottom: 1px solid black; */
+    outline-color: #B9DEFF;
     box-shadow: inset 2px 2px 2px grey, 0 -1px 1px white;
     width: 220px;
     height: 30px;
     text-align: center;
     background-color: white;
-    margin-left: 100px;
+    margin-left: 104px;
 }
 
 .fontbold {
@@ -136,7 +148,7 @@
 .container_buttons {
     overflow: hidden;
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     padding-bottom: 10px;
     margin-bottom: 0;
 }
@@ -146,12 +158,11 @@
     margin-top: 5px;
     background-color: #B9DEFF;
     border-radius: 8px;
-    display: inline-block;
     cursor: pointer;
     color: black;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
-    padding: 13px 25px;
+    padding: 10px 20px;
     text-decoration: none;
     border: none;
 }
