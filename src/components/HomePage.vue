@@ -27,7 +27,6 @@
     overflow: hidden;
     display: flex;
     justify-content:center;
-    /* align-items: flex-start; */
     background-color: #FFF6ED;
 }
 
