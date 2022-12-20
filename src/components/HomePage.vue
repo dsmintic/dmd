@@ -2,10 +2,9 @@
     <section class="container">
 
         <article>
-            <p class="fontbold">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto quam veniam a,
-                cumque, excepturi non
-                exercitationem temporibus maiores ipsam quod provident recusandae quos, eligendi ea saepe suscipit rerum
-                ipsa sapiente?</p>
+            <p class="fontbold">Welcome to the DMD Damn Delicius website <br>
+
+            "I cook with wine and sometimes I even add it to the food."</p>
         </article>
 
         <article>
