@@ -40,16 +40,17 @@
 .container {
   overflow: hidden;
   display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  background-color: #FFDAB9;
+  justify-content: center;
+  /* background-color: #FFF6ED; */
 }
 
 .container article {
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
-  flex-basis: 50%;
+  background-color: #FFF6ED;
+  width: 1000px;
+  /* flex-basis: 100%; */
 }
 
 .container article h1 {
@@ -73,6 +74,7 @@
     border: 3px solid transparent;
     box-shadow: inset 0 1px 2px rgba(0,0,0,4);
     background-color: #FFF6ED;
+    width: 100%;
 }
 .textareaLabel {
     vertical-align: top;
