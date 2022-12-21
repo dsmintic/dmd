@@ -8,6 +8,9 @@ import AddRecipeView from '../views/AddRecipeView.vue'
 import AddCommentView from '../views/AddCommentView.vue'
 import EditCommentView from '../views/EditCommentView.vue'
 import ChefsView from '../views/ChefsView.vue'
+import ChefMarijaView from '../views/ChefMarijaView.vue'
+import ChefDennisView from '../views/ChefDennisView.vue'
+import ChefDamirView from '../views/ChefDamirView.vue'
 
 const routes = [
   { path:'/', name:'Home', component:HomeView},
@@ -18,6 +21,9 @@ const routes = [
   { path:'/addcomment', name:'Add Comment', component: AddCommentView},
   { path:'/editcomment', name:'Edit Comment', component: EditCommentView},
   { path:'/chefs', name:'Chefs', component: ChefsView},
+  { path:'/chefMarija', name:'Marija', component: ChefMarijaView},
+  { path:'/chefDennis', name:'Dennis', component: ChefDennisView},
+  { path:'/chefDamir', name:'Damir', component: ChefDamirView},
   
 
 

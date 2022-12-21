@@ -5,17 +5,17 @@
 
     <article>
       <p>Damir Šmintić</p>
-      <img src="../images/Damir_chefs.png">
+      <router-link :to="{name:'Damir'}"><img src="../images/Damir_chefs.png"></router-link>
     </article>
 
     <article>
       <p>Marija Mamić</p>
-      <img src="../images/Marija_chefs.png">
+      <router-link :to="{name:'Marija'}"><img src="../images/Marija_chefs.png"></router-link>
     </article>
 
     <article>
       <p>Denis Križak</p>
-      <img src="../images/Denis_chefs.png">
+      <router-link :to="{name:'Dennis'}"><img src="../images/Denis_chefs.png"></router-link>
     </article>
   </section>
 </template>
